@@ -16,7 +16,7 @@ const ArticlePage = () => {
           Akshay&apos;s Tech Blogs <br /> 2025
         </h1>
         <p className="sm:text-xl lg:text-4xl mt-2 coral text-black transition-opacity duration-500">
-          Exploring frontend and AI-powered development
+          Exploring Frontend and AI-powered development
         </p>
       </header>
 
