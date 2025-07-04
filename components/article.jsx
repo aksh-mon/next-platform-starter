@@ -101,4 +101,6 @@ const ArticlePage = () => {
       </button>
     </div>
 
+    );
+};
 export default ArticlePage;
