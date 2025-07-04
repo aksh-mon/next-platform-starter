@@ -18,7 +18,7 @@ const article = () => {
                         />
                         <div class="p-6">
                             <h2 class="text-2xl font-semibold text-blue-600">
-                                🔧 2025 Web Trends: What’s Hot in HTML & CSS
+                                🔧 2025 Web Trends: What&apos;s Hot in HTML & CSS
                             </h2>
                             <p class="text-sm text-gray-400 mt-1">Published on July 3, 2025</p>
                             <p class="mt-4 text-gray-700">
