@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
                 <meta name="theme-color" content="#0ea5e9" />
                 <meta name="language" content="en" />
                 <meta name="author" content="Akshay Kumar" />
-
+                <meta name='auhtornew' content='khiladi'/>
                 <title>Akshay&apos;s Tech Blog 2025 | Frontend & AI Dev</title>
                 <meta name="description" content="Explore the latest in frontend development, Tailwind CSS, and AI-powered coding with Akshay's tech blog." />
                 <meta name="keywords" content="frontend, web development, HTML, CSS, Tailwind, Next.js, JavaScript, AI tools, blog 2025, Akshay Kumar, developer blog" />
