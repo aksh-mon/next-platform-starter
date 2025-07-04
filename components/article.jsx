@@ -86,7 +86,6 @@ const ArticlePage = () => {
           );
         })}
       </main>
-=======
             <header class="text-center py-10 bg-white shadow-md">
                 <h1 class="text-4xl font-bold text-blue-700">🧠 Akshay&apos;s Tech Blogs 2025</h1>
                 <p class="text-gray-500 mt-2">Exploring frontend and AI-powered development</p>
