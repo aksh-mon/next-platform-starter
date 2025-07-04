@@ -1,8 +1,11 @@
 import React from 'react'
-
+import Article from 'components/article'
 const page = () => {
   return (
-    <div>Welcome to Aksh Daily Blogs ....</div>
+    <div>
+      Welcome to Aksh Daily Blogs ....
+      <Article/>
+      </div>
   )
 }
 
