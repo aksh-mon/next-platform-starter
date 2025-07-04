@@ -47,7 +47,7 @@ const article = () => {
                                 <strong>Copilot X</strong>, and auto-documenting plugins make it faster to ship modern apps.
                             </p>
                             <p class="mt-2 text-gray-700">
-                                In 2025, developers are not just coding — they're collaborating with AI to write tests, refactor code,
+                                In 2025, developers are not just coding — they&apos;re collaborating with AI to write tests, refactor code,
                                 and even suggest accessibility improvements on the fly.
                             </p>
                         </div>
