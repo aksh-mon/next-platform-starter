@@ -22,7 +22,7 @@ const ArticlePage = () => {
 
       {/* Main Articles */}
       <main className="max-w-4xl mx-auto px-4 py-10 space-y-12 transition-all duration-500">
-        {[1, 2, 3, 4].map((num, i) => {
+        {[1, 2, 3, 4,5,6,7,8].map((num, i) => {
           const articles = [
             {
               title: '🔧 2025 Web Trends: What’s Hot in HTML & CSS',
@@ -51,7 +51,35 @@ const ArticlePage = () => {
               desc: `Lighthouse is still relevant, but tools like WebPageTest, Bundlephobia, and React Profiler are essential for debugging UI.`,
               code: '',
               image: 'https://images.unsplash.com/photo-1633307057722-a4740ba0c5d0?q=80&w=1170&auto=format&fit=crop'
-            }
+            },
+            {
+    title: '📱 Mobile-First Design Strategies for 2025',
+    date: 'June 10, 2025',
+    desc: `With mobile usage dominating, designers prioritize mobile-first layouts using responsive utility classes and minimal design.`,
+    code: `@media (max-width: 768px) {\n  .navbar {\n    display: none;\n  }\n}`,
+    image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1170&auto=format&fit=crop'
+  },
+  {
+    title: '🔒 Securing Your Web App in 2025',
+    date: 'June 5, 2025',
+    desc: `Security is more important than ever. Modern best practices include CSP headers, two-factor auth, and encrypted storage.`,
+    code: `Content-Security-Policy: default-src 'self'; script-src 'self' https://apis.example.com`,
+    image: 'https://images.unsplash.com/photo-1584433144859-1fc1c74f5c7f?q=80&w=1170&auto=format&fit=crop'
+  },
+  {
+    title: '📦 Optimizing JavaScript Bundles with ES Modules',
+    date: 'June 1, 2025',
+    desc: `Tree shaking and ES modules reduce bundle size. Tools like Vite and Turbopack improve load time and performance.`,
+    code: `import { Button } from 'ui-library'; // Only the button gets bundled\n`,
+    image: 'https://images.unsplash.com/photo-1611967164527-b6e1e5d1e36d?q=80&w=1170&auto=format&fit=crop'
+  },
+  {
+    title: '🚀 Jamstack in 2025: Still Relevant?',
+    date: 'May 25, 2025',
+    desc: `Jamstack is evolving with SSR support, edge rendering, and serverless databases. Ideal for performance-focused apps.`,
+    code: `export const getStaticProps = async () => {\n  return { props: { data: await fetchData() } };\n}`,
+    image: 'https://images.unsplash.com/photo-1590608897129-79da98d159ad?q=80&w=1170&auto=format&fit=crop'
+  }
           ];
 
           const item = articles[i];
