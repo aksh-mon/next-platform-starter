@@ -48,21 +48,21 @@ const ArticlePage = () => {
             date: 'June 5, 2025',
             desc: `Security is more important than ever. Modern best practices include CSP headers, two-factor auth, and encrypted storage.`,
             code: `Content-Security-Policy: default-src 'self'; script-src 'self' https://apis.example.com`,
-            image: 'https://images.unsplash.com/photo-1584433144859-1fc1c74f5c7f?q=80&w=1170&auto=format&fit=crop'
+            image: 'https://images.unsplash.com/photo-1603899122406-e7eb957f9fd6?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
         },
         {
             title: '📦 Optimizing JavaScript Bundles with ES Modules',
             date: 'June 1, 2025',
             desc: `Tree shaking and ES modules reduce bundle size. Tools like Vite and Turbopack improve load time and performance.`,
             code: `import { Button } from 'ui-library'; // Only the button gets bundled\n`,
-            image: 'https://images.unsplash.com/photo-1611967164527-b6e1e5d1e36d?q=80&w=1170&auto=format&fit=crop'
+            image: 'https://imgs.search.brave.com/s-bYDWhYAvwRu4oj59-xI-5RE1pOXvT4ybzJdlaWaF0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9rZWVw/Y29kaW5nLmlvL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIzLzA3/L2ltYWdlLTYxLnBu/Zw'
         },
         {
             title: '🚀 Jamstack in 2025: Still Relevant?',
             date: 'May 25, 2025',
             desc: `Jamstack is evolving with SSR support, edge rendering, and serverless databases. Ideal for performance-focused apps.`,
             code: `export const getStaticProps = async () => {\n  return { props: { data: await fetchData() } };\n}`,
-            image: 'https://images.unsplash.com/photo-1590608897129-79da98d159ad?q=80&w=1170&auto=format&fit=crop'
+            image: 'https://imgs.search.brave.com/FM5ij4sozvGpPu-QrjmchZLcgRab80PtWjVeRSz40XM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mcmFt/ZXJ1c2VyY29udGVu/dC5jb20vaW1hZ2Vz/LzJ3c1FIWDFCV1o5/SE9xNDVoYVBRMDVi/R2dRcy5qcGc'
         }
     ];
 
@@ -91,9 +91,9 @@ const ArticlePage = () => {
             <main className="max-w-4xl mx-auto px-4 py-10 space-y-12 transition-all duration-500">
                 {articles.map((item, index) => {
                     return (
-                        <div key={index} className="relative border">
+                        <div key={index} className="relative">
                             <Image src={Logo} alt="logo" height={80} width={80} className="absolute left-0 top-0" />
-                            <span className="absolute text-red-700 ml-[6%] text-2xl top-0">{index + 1}</span>
+                            <span className="absolute text-red-700 ml-[6%] text-9xl top-0">{index + 1}</span>
 
                             <article
                                 className={`${
