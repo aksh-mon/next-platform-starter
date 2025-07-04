@@ -26,13 +26,7 @@ const article = () => {
                                 <strong>container queries</strong>, <strong>native nesting</strong>, and enhanced responsive utilities.
                             </p>
                             <pre class="bg-gray-900 text-green-400 p-4 rounded-lg mt-4 text-sm overflow-auto">
-                                <code>
-                                .container {
-                                    container-type: inline-size;}
-
-                                article {
-                                    container-name: blog;}
-                                </code>    
+                               
                             </pre>
                         </div>
                     </article>
